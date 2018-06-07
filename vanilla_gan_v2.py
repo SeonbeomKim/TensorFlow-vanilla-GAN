@@ -141,7 +141,7 @@ class GAN:
 				)
 
 		#이 두 오차의 합을 최소화 하도록 학습.
-		D_loss = tf.reduce_mean(D_X_loss + D_Gen_loss)
+		D_loss = tf.reduce_mean(D_X_loss) + tf.reduce_mean(D_Gen_loss)
 
 		return D_loss
 
