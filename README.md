@@ -26,9 +26,10 @@ GAN paper : https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
                 * D_Gen이 1로 수렴해야 Maximize가 되므로 D_Gen과 1과의 오차를 최소화 하도록 학습.
                 
                 
-                
-## vanilla_gan.py result (after 300 epoch)
+  
+## vanilla_gan.py result (after 300 epoch)  
 ![vanilla_gan.py](./generate/300.png)  
-
-## vanilla_gan_v2.py result (after 300 epoch)
+  
+## vanilla_gan_v2.py result (after 300 epoch)  
 ![vanilla_gan_v2.py](./generate_v2/300.png)  
+  
