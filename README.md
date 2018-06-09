@@ -16,7 +16,7 @@ GAN paper : https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
             
 ## 2.vanilla-gan-v2.py 
     * dataset : MNIST  
-    * loss function (많은 코드에서 사용하는 형태)
+    * loss function (많은 코드에서 사용하는 형)
         * Discriminator : Minimize -> tf.reduce_mean(D_X_loss) + tf.reduce_mean(D_Gen_loss)
             * D_X_loss = tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.ones_like(D_X_logits), logits=D_X_logits)
                 * D_X가 1로 수렴해야 Maximize가 되므로 D_X와 1과의 오차를 최소화 하도록 학습.
