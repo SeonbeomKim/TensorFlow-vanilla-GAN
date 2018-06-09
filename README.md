@@ -27,9 +27,9 @@ GAN paper : https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
                 
                 
   
-## vanilla_gan.py result (after 300 epoch)  
+## vanilla_gan.py result (after 300 epochs of training)  
 ![vanilla_gan.py](./generate/300.png)  
   
-## vanilla_gan_v2.py result (after 300 epoch)  
+## vanilla_gan_v2.py result (after 300 epochs of training)  
 ![vanilla_gan_v2.py](./generate_v2/300.png)  
   
