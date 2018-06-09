@@ -1,7 +1,9 @@
 # TensorFlow-vanilla-GAN
 Generative Adversarial Network
 
-https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
+원하는 Target이 아닌 랜덤한 이미지 생성.
+
+GAN paper : https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
 
 ## vanilla_gan.py
     * loss function
